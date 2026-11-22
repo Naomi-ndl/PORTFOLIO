@@ -28,14 +28,21 @@ $(function () {
         form.reset();
         $(form).removeClass('was-validated');
       } else {
-        erreur();
+        console.log('Réponse FormSubmit :', reponse);
+        erreur(reponse && reponse.message);
       }
     })
-    .fail(erreur);
+    .fail(function (xhr) {
+      console.log('Échec FormSubmit, code :', xhr.status, xhr.responseText);
+      erreur(xhr.responseJSON && xhr.responseJSON.message);
+    });
 
-    function erreur() {
-      $retour.removeClass('alert-info').addClass('alert-danger')
-             .text("Le message n'a pas pu être envoyé. Écrivez-moi directement à ndolimoayemarie@gmail.com.");
+    // Affiche la raison donnée par le service (si elle existe)
+    function erreur(raison) {
+      var texte = "Le message n'a pas pu être envoyé.";
+      if (raison) { texte += ' Message du service : ' + raison; }
+      texte += ' Vous pouvez aussi m\'écrire à ndolimoayemarie@gmail.com.';
+      $retour.removeClass('alert-info').addClass('alert-danger').text(texte);
     }
   });
 
