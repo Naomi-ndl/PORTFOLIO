@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de Naomi Ndoli, étudiante en Licence 2 Génie logiciel. Projets Python, développement web et compétences informatiques.">
+  <meta name="theme-color" content="#101827">
+  <title>Naomi Ndoli — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">N<span>.</span> NDOLI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Ouvrir le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#profil">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+          <li class="nav-item"><a class="nav-link" href="projets.html">Projets</a></li>
+          <li class="nav-item"><a class="nav-link nav-contact" href="contact.html">Me contacter</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> DISPONIBLE POUR DES OPPORTUNITÉS</p>
+        <p class="hero-intro">Bonjour, je suis</p>
+        <h1>Naomi <span>Ndoli.</span></h1>
+        <h2>Étudiante en <span>Génie logiciel</span></h2>
+        <p class="hero-description">Je m’intéresse à la programmation et au développement d’applications. Je cherche à renforcer mes compétences à travers des projets concrets.</p>
+        <div class="hero-actions">
+          <a href="projets.html" class="btn btn-primary-custom">Découvrir mes projets <span aria-hidden="true">↗</span></a>
+          <a href="cv.pdf" class="btn btn-outline-custom" target="_blank" rel="noopener">Consulter mon CV</a>
+        </div>
+        <div class="social-line">
+          <a href="https://github.com/Naomi-ndl" target="_blank" rel="noopener">GitHub ↗</a>
+          <span>·</span>
+          <a href="https://www.linkedin.com/in/moaye-marie-eunice-naomi-ndoli-39b4b7419/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-side-note">
+        <div class="side-note-mark">N.</div>
+        <p class="side-note-label">ÉTUDIANTE EN INFORMATIQUE</p>
+        <p class="side-note-title">Génie logiciel</p>
+        <p class="side-note-copy">Curieuse et motivée, je développe progressivement mes compétences à travers mes cours et mes projets.</p>
+      </div>
+    </div>
+    <div class="hero-bottom-line"></div>
+  </section>
+
+  <section class="section-space" id="profil">
+    <div class="container">
+      <div class="section-heading"><p class="eyebrow">01 — À PROPOS</p><h2>Apprendre, créer,<br><span>progresser.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-lead">Je suis étudiante en deuxième année de Licence en Génie logiciel à l'Institut Ivoirien de Technologie.</p>
+        <div class="about-detail">
+          <p>Mon parcours me permet de développer des bases en programmation, algorithmique, bases de données et développement web. J'aime comprendre comment les choses fonctionnent, résoudre des problèmes et transformer une idée en application.</p>
+          <p>Je souhaite continuer à renforcer mes compétences à travers des projets pratiques et des expériences en équipe.</p>
+          <a class="text-link" href="contact.html">Échanger avec moi <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills-section section-space" id="competences">
+    <div class="container">
+      <div class="section-heading"><p class="eyebrow">02 — SAVOIR-FAIRE</p><h2>Mes compétences<span>.</span></h2><p class="section-subtitle">Quelques domaines et outils abordés pendant ma formation.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Programmation</h3><p>Python · Langage C · Algorithmique</p></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>Développement web</h3><p>HTML5 · CSS3 · Bootstrap · jQuery</p></article>
+        <article class="skill-card"><div class="skill-icon">◫</div><h3>Données</h3><p>Bases de données · Manipulation de données</p></article>
+        <article class="skill-card"><div class="skill-icon">⌥</div><h3>Outils</h3><p>Git · GitHub · Visual Studio Code</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-space projects-invite">
+    <div class="container invite-inner">
+      <div><p class="eyebrow">03 — PROJETS</p><h2>Quelques réalisations.</h2><p>Découvrez les projets réalisés pendant mon parcours.</p></div>
+      <a href="projets.html" class="btn btn-primary-custom">Voir mes projets <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="index.html">N<span>.</span> NDOLI</a><p>Construire aujourd'hui, apprendre chaque jour.</p><div><a href="https://github.com/Naomi-ndl" target="_blank" rel="noopener">GitHub</a><a href="contact.html">Contact</a></div><small>© 2026 Naomi Ndoli. Tous droits réservés.</small></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
