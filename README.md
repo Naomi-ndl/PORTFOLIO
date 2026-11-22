@@ -6,7 +6,7 @@ Portfolio personnel d'une étudiante en **Licence 2 Génie logiciel** à l'Insti
 
 ## Vidéo de présentation
 
-**[▶ Voir la vidéo de présentation (plus de 5 minutes)](https://iitci0-my.sharepoint.com/:v:/g/personal/moaye_ndoli_iit_ci/IQBznCn38TF0SbZ5VmnkY8wMAXmbR62heM_uqSLHMN_6f1Q?e=ai41NL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)**
+**[▶ Voir la vidéo de présentation ](https://iitci0-my.sharepoint.com/:v:/g/personal/moaye_ndoli_iit_ci/IQBznCn38TF0SbZ5VmnkY8wMAXmbR62heM_uqSLHMN_6f1Q?e=ai41NL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)**
 
 La vidéo présente le site, le code, les technologies utilisées et la mise en ligne.
 
