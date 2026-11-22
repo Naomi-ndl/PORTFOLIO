@@ -21,7 +21,7 @@ La vidéo présente le site, le code, les technologies utilisées et la mise en 
 
 ## Technologies
 
-- HTML5 sémantique
+- HTML5 
 - CSS3 (`style.css`) avec un site adapté au mobile (responsive)
 - Bootstrap 5 (grille, menu, formulaire)
 - jQuery (`script.js`) : vérification et envoi du formulaire de contact
@@ -38,11 +38,7 @@ La vidéo présente le site, le code, les technologies utilisées et la mise en 
 | `script.js` | Script jQuery du formulaire |
 | `cv.pdf` | CV téléchargeable |
 
-## Lancer le site en local
 
-1. Télécharger ou cloner le dépôt.
-2. Ouvrir `index.html` dans un navigateur (connexion Internet nécessaire pour charger Bootstrap et jQuery).
-3. Le formulaire de contact ne fonctionne que sur le site en ligne ou avec un serveur local (par exemple l'extension Live Server de VS Code), pas en ouvrant le fichier directement.
 
 ## Contact
 
