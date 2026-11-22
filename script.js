@@ -37,13 +37,7 @@ $(function () {
       erreur(xhr.responseJSON && xhr.responseJSON.message);
     });
 
-    // Affiche la raison donnée par le service (si elle existe)
-    function erreur(raison) {
-      var texte = "Le message n'a pas pu être envoyé.";
-      if (raison) { texte += ' Message du service : ' + raison; }
-      texte += ' Vous pouvez aussi m\'écrire à ndolimoayemarie@gmail.com.';
-      $retour.removeClass('alert-info').addClass('alert-danger').text(texte);
-    }
+    
   });
 
 });
