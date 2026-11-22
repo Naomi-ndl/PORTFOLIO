@@ -41,6 +41,7 @@ La vidéo présente le site, le code, les technologies utilisées et la mise en 
 
 
 ## Contact
+auteur : N'Doli Moaye
 
 - E-mail : ndolimoayemarie@gmail.com
 - GitHub : https://github.com/Naomi-ndl
