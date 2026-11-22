@@ -39,3 +39,9 @@
 .project-content .tech-list{margin-top:auto;padding-top:18px;min-height:58px;align-content:flex-start}
 .project-content .project-link{margin-top:5px;min-height:25px}
 @media(max-width:767px){.project-content>p{min-height:0}.project-content h2{min-height:0}.project-content .tech-list{margin-top:18px}}
+
+/* Section formulaire de contact */
+.section-form{padding-top:0}
+.form-wrap{max-width:760px;margin:0 auto}
+.contact-form-card .eyebrow{margin-bottom:10px}
+.was-validated .form-control:valid{border-color:#dfe4ec;background-image:none}
